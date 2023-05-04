@@ -39,7 +39,7 @@ function isValid (valor, campo){
         return false
     } else {
         campo.classList.add("is-valid")
-        campo.classList.remove("is-invelid")
+        campo.classList.remove("is-invalid")
         return true
     }
 }
